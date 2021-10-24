@@ -1,0 +1,24 @@
+interface Book{
+	void Book();
+	void Book(long id, double price, long number);
+
+	long get_id();
+	long get_number();
+	double get_price();
+
+	void set_number(long n_number);
+	void set_id(long id);
+	void set_price(double price);
+};
+
+interface Library {
+    void Library();
+	long get_m();
+	boolean search();
+    void set_book1(long id, double price, long number);
+	boolean borrow_book(long id, long num);
+	void show();
+	double sale_sum();
+	double sale_average();
+	void sale_show(double sum, double average);
+};
