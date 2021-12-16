@@ -1,9 +1,0 @@
-{
-    "name": "app-name",
-    "version": "0.1.0",
-    "main": "main.js",
-    "dependencies": {
-        "nodejs-websocket": "^1.7.2",
-        "websocket": "^1.0.34"
-    }
-}
